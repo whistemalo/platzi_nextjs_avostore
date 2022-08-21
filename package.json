@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
   },
   "dependencies": {
     "next": "12.2.5",

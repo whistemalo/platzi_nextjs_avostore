@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import avocado from "../../assets/img/avocado.png";
+import avocado from '../../assets/img/avocado.png'
 import React from 'react'
 import Link from 'next/link';
 
