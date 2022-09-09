@@ -69,20 +69,7 @@ const data: Record<TProductId, TProduct> = {
         taste: 'Gorgeous, is an avocado',
       },
     },
-    ewxsd6xb: {
-      name: 'Lamb Hass Avocado',
-      id: 'ewxsd6xb',
-      sku: 'N55229ZA',
-      price: 1.34,
-      image: '/images/lamb.jpg',
-      attributes: {
-        description:
-          'The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.',
-        shape: 'Obovate',
-        hardiness: '-2 °C',
-        taste: 'Great, is an avocado',
-      },
-    },
+  
     fpr72m9k: {
       name: 'Pinkerton Avocado',
       id: 'fpr72m9k',
@@ -123,6 +110,20 @@ const data: Record<TProductId, TProduct> = {
         shape: 'Pear',
         hardiness: '-5 °C',
         taste: 'Splendid, is an avocado',
+      },
+    },
+    ewxsd6xb: {
+      name: 'Lamb Hass Avocado',
+      id: 'ewxsd6xb',
+      sku: 'N55229ZA',
+      price: 1.34,
+      image: '/images/lamb.jpg',
+      attributes: {
+        description:
+          'The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.',
+        shape: 'Obovate',
+        hardiness: '-2 °C',
+        taste: 'Great, is an avocado',
       },
     },
   }

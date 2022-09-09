@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@database":["database/db"],
+      "@components/*": [
+        "components/*"
+      ]
+    },
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,

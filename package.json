@@ -10,6 +10,8 @@
     "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
   },
   "dependencies": {
+    "daisyui": "^2.24.0",
+    "isomorphic-fetch": "^3.0.0",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
